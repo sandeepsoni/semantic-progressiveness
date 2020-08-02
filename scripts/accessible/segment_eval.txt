@@ -1,0 +1,10 @@
+####
+TP(True Positives): #times segmentation needed and correct segmentation done.
+TN(True Negatives): #times no segmentation needed and no segmentation done.
+FP(False Positives): #times no segmentation needed and segmentation done.
+FN(False Negatives): #times segmentation needed and no or incorrect segmentation done.
+####
+Run,TP,TN,FP,FN,Precision,Recall,F1,Accuracy
+1,36,32,4,28,0.90,0.56,0.69,0.68
+2,46,27,0,27,1.00,0.63,0.77,0.73
+3,45,36,3,16,0.94,0.74,0.83,0.81
